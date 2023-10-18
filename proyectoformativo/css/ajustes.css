@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ajustes;
+    src: url(../fuentes/roboto/Roboto-Regular.ttf);
+}
+
+.container
+{
+    font-family:ajustes ;
+}
+
+.logo1{
+    width: 70px !important;
+    height: 70px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button{
+    background-color:#39a900 ;
+    color: black;
+    font-weight: bold;
+}

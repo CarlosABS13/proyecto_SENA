@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: olvido;
+    src: url(../fuentes/roboto/Roboto-Regular.ttf);
+}
+
+body{
+    font-family:olvido ;
+}
+
+.inicio_sesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1{
+    width: 80px !important;
+    height: 80px !important;
+}
+
+
+main.botonv{
+    background-color:#39a900 ;
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: perfil;
+    src: url(../fuentes/roboto/Roboto-Condensed.ttf);
+}
+
+body{
+    background-image: url(/images/salada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    font-family:perfil ;
+    
+}
+
+main .botonv{
+    background-color:#39a900 ;
+    color: black;
+    font-weight: bold;
+}
+
+.inicio_sesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.logo1{
+    width: 70px !important;
+    height: 70px !important;
+    filter: invert();
+}

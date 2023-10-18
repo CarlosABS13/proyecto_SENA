@@ -1,0 +1,29 @@
+/* styles.css */
+#show-notifications-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #notifications-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    max-width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .notification {
+    margin-bottom: 10px;
+  }
+  

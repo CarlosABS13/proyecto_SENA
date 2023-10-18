@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: senaa;
+    src: url(../fuentes/roboto/Roboto-Light.ttf);
+}
+
+body{
+    font-family: senaa;
+}
+
+.volver{
+    width: 40px;
+    height: 40px;
+}
+
+.card{
+    width: 95%;
+}
+
+.dispositivos{
+    width: 200px;
+    height: 200px;
+}
+
+.titulos{
+    font-weight: 600;
+        color: black;
+}
+
+.nuevo{
+    font-weight: bold;
+    font-size: 30px;
+        color: black;
+}
+
+.elije{
+    font-weight: lighter;
+    font-size: 20px;
+        color: black;
+}
+
+.escoge{
+    font-size: 25px;
+    font-weight: lighter;
+    color: black;
+}
+
+.tacon{
+    width: 40px;
+    height: 40px;
+}
+
+.codigo{
+    background-image: url(../images/escaneo-de-codigo-qr.png);
+    background-repeat:no-repeat;
+    height:200px;
+    width:200px;
+    background-size: 200px 200px;
+    background-position:center;
+    background-color: transparent;
+}
+
+.teclado{
+    background-image: url(../images/teclado.png);
+    background-repeat:no-repeat;
+    height:200px;
+    width:200px;
+    background-size: 200px 200px;
+    background-position:center;
+    background-color: transparent;
+}
+
+.bosquejo{
+    background-image: url(../images/bosquejo.png);
+    background-repeat:no-repeat;
+    height:200px;
+    width:200px;
+    background-size: 200px 200px;
+    background-position:center;
+    background-color: transparent;
+}
+

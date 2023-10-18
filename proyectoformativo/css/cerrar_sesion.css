@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+button img{
+    width: 30px;
+    height: 30px;
+    margin: 9px;
+}
+
+.logoi{
+    width: 70px !important;
+    height: 70px !important;
+    margin: 9px;
+    border-color: green !important;
+    border: solid;
+    border-radius: 50%;
+}
+
+ /* Estilos para la sección fija */
+ .seccion-fija {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    z-index: 100;
+    overflow: hidden !important;
+    
+}
+
+/* Estilos para la sección de contenido con scroll */
+.seccion-con-scroll {
+    margin-top: 10px;
+    padding: 20px;
+    height: calc(100vh - 60px);
+}
+
+
+/* Cambiar el color del scroll vertical */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #38a9005d;
+    border-radius: 15px;
+}
+

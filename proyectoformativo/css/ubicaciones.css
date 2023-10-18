@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ubicaciones;
+    src: url(../fuentes/roboto/Roboto-Medium.ttf);
+}
+
+main{
+    font-family: ubicaciones;
+}
+
+main .ubi{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.card-title{
+    font-size: 27px;
+}

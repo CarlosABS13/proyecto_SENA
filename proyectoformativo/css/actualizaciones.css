@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: actualizaciones;
+    src: url(../fuentes/roboto/Roboto-Medium.ttf);
+}
+
+main{
+    font-family: actualizaciones;
+}
+
+.fondo{
+    background-image: url(../images/teclado.png);
+    background-repeat:no-repeat;
+    height:40px;
+    width:40px !important;
+    background-size:cover;
+    background-color: transparent;
+}
+
+.lineas{
+    border: solid;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: gray;
+    background-color: whitesmoke;
+}
+
+.subir{
+    background-image: url(../images/subir.png);
+    background-repeat:no-repeat;
+    height:120px;
+    width:120px !important;
+    background-size:cover;
+    background-color: transparent;   
+}
+
+.subir1{
+    visibility: hidden;
+}
+
+.sombra{
+-webkit-box-shadow: 0px 0px 9px 4px rgba(214,214,214,1);
+-moz-box-shadow: 0px 0px 9px 4px rgba(214,214,214,1);
+box-shadow: 0px 0px 9px 4px rgba(214,214,214,1);
+}
+
+div.ultima .botonv{
+background-color: #39a900;
+color: black;
+font-weight: bold;
+}
+
+div.ultima .botonc{
+background-color: gray;
+color: white;
+font-weight: bold;
+}
+
+h1.nueva{
+    font-size: 20px;
+    font-weight: bold;
+}
